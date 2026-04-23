@@ -417,13 +417,11 @@
 
 
         .footer-logo {
-
             width: 60px;
-
-            height: auto;
-
+            height: 60px; /* Garante que seja um quadrado perfeito */
             margin-bottom: 1rem;
-
+            object-fit: cover; /* Recorta a imagem para preencher sem distorcer */
+            border-radius: 50%; /* Torna a imagem redonda */
         }
 
 
